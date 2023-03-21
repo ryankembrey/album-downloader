@@ -1,11 +1,11 @@
 # Album_Downloader
 A shell script using yt-dlp to download your favourite albums from YouTube.
 
-##Dependencies:
+## Dependencies:
 * yt-dlp
 * opusenc
 
-##Usage:
+## Usage:
 * Clone the download the file 'album_downloader.sh' onto your computer
 * Place it into your music directory
 * Edit the shebang to match your shell (eg for bash #!/usr/bin/bash)
