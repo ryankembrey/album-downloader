@@ -13,4 +13,4 @@ A shell script using yt-dlp to download your favourite albums from YouTube.
 * Run the script with './album_downloader.sh'
 
 The album will be placed in a directory tree as follows:
-* Music/genre/artist/album/song.opus
+* ~/Music/genre/artist/album/song.opus
