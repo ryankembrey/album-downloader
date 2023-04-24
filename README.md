@@ -1,4 +1,4 @@
-# Album Downloader
+# album-downloader
 A shell script using `yt-dlp` to download your favourite albums from YouTube.
 
 ## Dependencies:
