@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/sh
 
 echo "Enter YouTube playlist URL:"
 read playlist_url
