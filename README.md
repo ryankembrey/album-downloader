@@ -2,19 +2,19 @@
 A shell script using `yt-dlp` to download your favourite albums from YouTube.
 
 ## Dependencies:
-* `yt-dlp`
-* `opusenc`
+- `yt-dlp`
+- `opusenc`
 
 ## Usage:
-* Clone the file `album_downloader.sh` onto your computer into your music directory.
+Clone the file `album_downloader.sh` onto your computer into your music directory.
 ```bash
 cd ~/music/ && git clone https://github.com/ryankembrey/album-downloader && cd ./album-downloader/
 ```
-* Give it executing permissions 
+Give it executing permissions 
 ```bash
 chmod +x album-downloader.sh
 ```
-* Run the script with 
+Run the script with 
 ```bash
 ./album-downloader.sh
 ```
