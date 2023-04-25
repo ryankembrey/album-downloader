@@ -10,11 +10,11 @@ A shell script using `yt-dlp` to download your favourite albums from YouTube.
 * Place it into your music directory.
 * Give it executing permissions 
 ```bash
-chmod +x album_downloader.sh
+chmod +x album-downloader.sh
 ```
 * Run the script with 
 ```bash
-./album_downloader.sh
+./album-downloader.sh
 ```
 ## Enter Details
 The script then ask you for the following info. Enter details how you want them to appear in the metadata.
