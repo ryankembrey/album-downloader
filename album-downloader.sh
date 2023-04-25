@@ -1,5 +1,7 @@
 #!/usr/bin/sh
 
+cd .
+
 echo "Enter YouTube playlist URL:"
 read playlist_url
 
