@@ -7,6 +7,9 @@ A shell script using `yt-dlp` to download your favourite albums from YouTube.
 
 ## Usage:
 * Clone the file `album_downloader.sh` onto your computer.
+```bash
+git clone gttps://github.com/ryankembrey/album-downloader ~/music
+```
 * Place it into your music directory.
 * Give it executing permissions 
 ```bash
