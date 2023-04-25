@@ -3,14 +3,13 @@
 echo "Enter YouTube playlist URL:"
 read playlist_url
 
-#echo "Enter output folder name:"
-#read output_folder_name
-
 echo "Enter album name:"
 read meta_album_name
 album_folder_name=$(echo "$meta_album_name"| tr '[:space:]' '_' | tr '[:upper:]' '[:lower:]'| sed 's/.$//')
+
 echo "Enter artist name:"
 read meta_artist_name
+
 art_length=${#meta_artist_name}
 artist_name=$(echo "$meta_artist_name" | tr '[:space:]' '_' | tr '[:upper:]' '[:lower:]'| sed 's/.$//')
  
@@ -20,7 +19,6 @@ read year
 echo "Enter genre:"
 read meta_genre
 genre=$(echo "$meta_genre"| tr '[:space:]' '_' | tr '[:upper:]' '[:lower:]'| sed 's/.$//')
-
 
 # Check if genre folder already exists. Make one if not and cd
 if [ -d "$genre" ]; then
@@ -53,11 +51,8 @@ for file in *.wav; do
   rm "$new_file_name"
 done
 
-
 for file in ./*_.opus; do 
     mv -- "$file" "${file/_\.opus/.opus}" 
 done
-
-
 
 echo "$meta_album_name by $meta_artist_name was downloaded successfully!"
