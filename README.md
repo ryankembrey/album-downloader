@@ -25,5 +25,6 @@ The script then ask you for the following info. Enter details how you want them 
 - Year of album release
 - Genre
 
+
 The album will be placed in a directory tree as follows:
 * ~/music/genre/artist/album/song.opus
